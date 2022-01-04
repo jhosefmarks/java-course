@@ -26,6 +26,8 @@ public class Keyboard {
 		System.out.println("Your full name is " + fullName);
 		System.out.println("Your are " + age + " years old.");
 		System.out.println("Your are " + height	 + " tall.");
+		
+		scan.close();
 	
 	}
 

@@ -14,7 +14,7 @@ public class Exercise010 {
 		// https://www.omnicalculator.com
 		double fahrenheit = (celsius * 9/5) + 32;
 		
-		System.out.println("Fahrenheit: " + fahrenheit);
+		System.out.println("Fahrenheit: " + fahrenheit + "F");
 		
 		scan.close();
 

@@ -14,7 +14,7 @@ public class Exercise014 {
 		System.out.print("Link (Mbps): ");
 		double mbps = scan.nextDouble();
 		
-		double downloadTime = fileSize / mbps / 60;
+		double downloadTime = fileSize / mbps;
 		
 		System.out.println("Time: " + downloadTime);
 		

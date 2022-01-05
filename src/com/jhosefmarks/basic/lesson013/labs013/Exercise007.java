@@ -12,7 +12,8 @@ public class Exercise007 {
 		double side = scan.nextDouble();
 		
 		// https://www.omnicalculator.com
-		double area = side * side;
+		// double area = side * side;
+		double area = Math.pow(side, 2);
 		double area2 = area * 2;
 		
 		System.out.println("Area: " + area);

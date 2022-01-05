@@ -14,7 +14,7 @@ public class Exercise009 {
 		// https://www.omnicalculator.com
 		double celsius = (fahrenheit - 32) * 5/9;
 		
-		System.out.println("Celsius: " + celsius);
+		System.out.println("Celsius: " + celsius + "C");
 		
 		scan.close();
 

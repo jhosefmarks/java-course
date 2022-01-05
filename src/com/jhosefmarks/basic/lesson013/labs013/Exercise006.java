@@ -13,7 +13,8 @@ public class Exercise006 {
 		
 		// https://www.omnicalculator.com
 		double diameter = radius * 2;
-		double area = 3.1416 * (radius * radius);
+		// double area = 3.1416 * (radius * radius);
+		double area = Math.PI * Math.pow(radius, 2);
 		
 		System.out.println("Diameter: " + diameter);
 		System.out.println("Area: " + area);
